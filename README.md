@@ -13,8 +13,7 @@ The DashPi at is a Raspberry Pi based GPS Dashcam which can be customised to per
 5. Adding to it yourself
 
 
-Credits
-
 Credtits:
 
-Tinkernut OzMaker
+Tinkernut
+OzMaker
