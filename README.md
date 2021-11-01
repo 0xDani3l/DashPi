@@ -1,5 +1,5 @@
 # DashPi
-A GPS Dashcam Smart Car-Computer Thing Based on a Raspberry Pi
+A Raspberry Pi Based GPS Dashcam Smart Car-Computer thing for your Car
 
 What is the DashPi?
 
