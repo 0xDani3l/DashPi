@@ -1,8 +1,10 @@
-## Welcome to GitHub Pages
+## What is the DashPi?
 
-You can use the [editor on GitHub](https://github.com/0xDani3l/DashPi/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+The DashPi at is a Raspberry Pi based GPS Dashcam which can be customised to perform a wide variety tasks such as Car Diagnostics, Media playing, or even object detection.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+The foundation of this project is built from a Raspberry Pi, USB Camera, and USB GPS Module. 
+
+
 
 ### Markdown
 
