@@ -14,10 +14,10 @@ Markdown is a lightweight and easy-to-use syntax for styling your writing. It in
 
 Yeet
 
-`1. Required Hardware`
-`2. Required Software`
-`3. Configuration`
-`4. Going Further`
+`1. Required Hardware
+2. Required Software
+3. Configuration
+4. Going Further`
 
 ```
 
