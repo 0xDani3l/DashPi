@@ -2,20 +2,8 @@
 
 The DashPi at is a Raspberry Pi based GPS Dashcam which can be customised to perform a wide variety tasks such as Car Diagnostics, Media playing, or even object detection.
 
-The foundation of this project is built from a Raspberry Pi, USB Camera, and USB GPS Module. 
+This site aims to act as a guide for anyone who wishes to build their own version of this project. 
 
-
-
-### Required Hardware
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-1. Required Hardware
-2. Required Software
-3. Configuration
-4. Going Further`
-```
 
 ### Required Hardware  
 
@@ -31,5 +19,13 @@ Markdown is a lightweight and easy-to-use syntax for styling your writing. It in
 <img src="https://www.shop.nctechimaging.com/wp-content/uploads/IMG_2426.jpg" width="200" height="100">  
 [Link](url)  
 
+**USB C Cigarette Port Charger (optional)**  
+<img src="https://www.shop.nctechimaging.com/wp-content/uploads/IMG_2426.jpg" width="200" height="100">  
+[Link](url)  
+
 ### Configuring Hardware
-The physical aspect of this project can be as minimal or full fledged as you like.
+The Hardware portion of this system is quite simple. Simply plug in your GPS into one of the blue USB 3.0 ports on the Pi. A red light should appear on the device. 
+
+TIP - GPS Modules can take anywhere from 30 seconds to 5 minutes to fully boot and obtain a signal. Please be patient, and make sure your GPS module is placed in a location that recieves optimal connection. You can use your phone's service bar as an indicator of a spot with a good signal. 
+
+The physical aspect of this project can be as full fledged as you like. Personally, I was on a tight budget and time constraints, so I used cheaper modules and did not build a chassis for the components. 
