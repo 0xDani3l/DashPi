@@ -11,27 +11,28 @@ The foundation of this project is built from a Raspberry Pi, USB Camera, and USB
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
 ```markdown
-- Some Stuff
 
+Yeet
 
-`Here is some code`
-[Link](url) and ![Image](src)
+`1. Required Hardware`
+`2. Required Software`
+`3. Configuration`
+`4. Going Further`
+
 ```
 
 ### Required Hardware  
 
 **Raspberry Pi 4**  
-<img src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Raspberry_Pi_4_Model_B_-_Side.jpg" width="200" height="100"> 
-
+<img src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Raspberry_Pi_4_Model_B_-_Side.jpg" width="200" height="100">  
+[Link](url)  
 
 **USB Webcam**  
-
-<img src="https://www.thetelecomshop.com/au/media/catalog/product/cache/9cd8ad701df57b45fe03cf4988b4e1eb/image/212069b75f/grandstream-full-hd-1080p-30fps-usb-webcam-guv3100-grndguv3100bn.jpg" width="200" height="100">
-
+<img src="https://www.thetelecomshop.com/au/media/catalog/product/cache/9cd8ad701df57b45fe03cf4988b4e1eb/image/212069b75f/grandstream-full-hd-1080p-30fps-usb-webcam-guv3100-grndguv3100bn.jpg" width="200" height="100">  
+[Link](url)  
 
 **USB GPS Reciever**  
-<img src="https://www.shop.nctechimaging.com/wp-content/uploads/IMG_2426.jpg" width="200" height="100">
+<img src="https://www.shop.nctechimaging.com/wp-content/uploads/IMG_2426.jpg" width="200" height="100">  
+[Link](url)  
 
 ### Support or Contact
-
-fuck you
