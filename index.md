@@ -20,7 +20,7 @@ Markdown is a lightweight and easy-to-use syntax for styling your writing. It in
 
 ### Required Hardware
 
-![Image](https://upload.wikimedia.org/wikipedia/commons/f/f1/Raspberry_Pi_4_Model_B_-_Side.jpg=250x250)
+![Image](https://upload.wikimedia.org/wikipedia/commons/f/f1/Raspberry_Pi_4_Model_B_-_Side.jpg =250x250)
 
 Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/0xDani3l/DashPi/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
