@@ -32,6 +32,14 @@ The Hardware portion of this system is quite simple. Simply plug in your GPS int
 **PRO TIP** - GPS Modules can take anywhere from 30 seconds to 5 minutes to fully boot and obtain a signal. Please be patient, and make sure your GPS module is placed in a location that recieves optimal connection. You can use your phone's service bar as an indicator of a spot with a good signal. 
 
 
-Once booted, you can check if the GPS signal is working by installing the GPSD client on your Pi. To do this, run -
+Once booted, you can check if the GPS signal is working by installing the GPSD client on your Pi. To do this, run ```sudo apt-get install gpsd```
 
-```sudo apt-get install gpsd```
+Once installed, you can run the test daemon by running ```sudo cgps -s```
+
+Note - The S flag
+
+If you are not recieving a full GPS signal, try editing the default gpsd configuration file with ```sudp nano gpsd.rc```
+
+Once opened
+- Safe flag
+- Specify port
