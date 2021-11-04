@@ -7,6 +7,8 @@ This site aims to act as a guide for anyone who wishes to build their own versio
 
 ### Required Hardware  
 
+The physical aspect of this project can be as full fledged as you like. Personally, I was on a tight budget and time constraints, so I used cheaper modules and did not build a chassis for the components. With more money and resources, you could buy a better GPS module, mini computer, and webcam. The specific parts used should't matter, as they should all have a relatively similar process of setting up.  
+
 **Raspberry Pi 4**  
 <img src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Raspberry_Pi_4_Model_B_-_Side.jpg" width="200" height="100">  
 [Link](https://raspberry.piaustralia.com.au/products/raspberry-pi-4?src=raspberrypi)  
@@ -23,9 +25,13 @@ This site aims to act as a guide for anyone who wishes to build their own versio
 <img src="https://www.jaycar.com.au/medias/sys_master/images/images/9524103020574/MP3684-usb-type-c-car-charger-5-4a-total-outputImageMain-515.jpg" width="200" height="100">  
 [Link](https://www.jaycar.com.au/usb-type-c-car-charger-5-4a-total-output/p/MP3684)  
   
-The physical aspect of this project can be as full fledged as you like. Personally, I was on a tight budget and time constraints, so I used cheaper modules and did not build a chassis for the components. With more money and resources, you could buy a better GPS module, mini computer, and webcam. The specific parts used should't matter, as they will all have a similar process of setting up.
-
+  
 ### Configuring Hardware
 The Hardware portion of this system is quite simple. Simply plug in your GPS into one of the blue USB 3.0 ports on the Pi. A red light should appear on the device and begin blinking.
 
 **PRO TIP** - GPS Modules can take anywhere from 30 seconds to 5 minutes to fully boot and obtain a signal. Please be patient, and make sure your GPS module is placed in a location that recieves optimal connection. You can use your phone's service bar as an indicator of a spot with a good signal. 
+
+
+Once booted, you can check if the GPS signal is working by installing the GPSD client on your Pi. To do this, run -
+
+```sudo apt-get install gpsd```
