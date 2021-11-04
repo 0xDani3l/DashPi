@@ -23,14 +23,18 @@ Markdown is a lightweight and easy-to-use syntax for styling your writing. It in
 **Raspberry Pi 4**
 <img src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Raspberry_Pi_4_Model_B_-_Side.jpg" width="200" height="100">
 
+</br>
+
 **USB Webcam**
 <img src="https://www.thetelecomshop.com/au/media/catalog/product/cache/9cd8ad701df57b45fe03cf4988b4e1eb/image/212069b75f/grandstream-full-hd-1080p-30fps-usb-webcam-guv3100-grndguv3100bn.jpg" width="200" height="100">
+
+</br>
 
 **USB GPS Reciever**
 <img src="https://www.shop.nctechimaging.com/wp-content/uploads/IMG_2426.jpg" width="200" height="100">
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/0xDani3l/DashPi/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+</br>
 
 ### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+fuck you
