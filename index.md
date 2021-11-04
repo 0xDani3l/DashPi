@@ -21,7 +21,9 @@ Markdown is a lightweight and easy-to-use syntax for styling your writing. It in
 ### Required Hardware
 
 **Raspberry Pi 4**
-<img src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Raspberry_Pi_4_Model_B_-_Side.jpg" width="200" height="100"> <br/>
+<img src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Raspberry_Pi_4_Model_B_-_Side.jpg" width="200" height="100"> 
+
+``` ```
 
 
 **USB Webcam**
