@@ -6,31 +6,21 @@ The foundation of this project is built from a Raspberry Pi, USB Camera, and USB
 
 
 
-### Markdown
+### Required Hardware
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
 ```markdown
-Syntax highlighted code block
+- Some Stuff
 
-# Gang gang gang gang
-## Yeet
-### Bussanut
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**COLD** and _SEXY_ and `Code` text
-
+`Here is some code`
 [Link](url) and ![Image](src)
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### Required Hardware
 
-### Jekyll Themes
+![Image](https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FRaspberry_Pi&psig=AOvVaw3FXUZIaoL7Z_5BAJPYmrTF&ust=1636152186360000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCIDqpYLk__MCFQAAAAAdAAAAABAD)
 
 Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/0xDani3l/DashPi/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
