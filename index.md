@@ -11,14 +11,10 @@ The foundation of this project is built from a Raspberry Pi, USB Camera, and USB
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
 ```markdown
-
-Yeet
-
-`1. Required Hardware
+1. Required Hardware
 2. Required Software
 3. Configuration
 4. Going Further`
-
 ```
 
 ### Required Hardware  
@@ -35,4 +31,5 @@ Yeet
 <img src="https://www.shop.nctechimaging.com/wp-content/uploads/IMG_2426.jpg" width="200" height="100">  
 [Link](url)  
 
-### Support or Contact
+### Configuring Hardware
+The physical aspect of this project can be as minimal or full fledged as you like.
