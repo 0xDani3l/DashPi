@@ -55,19 +55,17 @@ To install the Navit client, run ```sudo apt-get install Navit```. You can now l
 
 Once you have the bin file downloaded, extract it to the /home/pi/maps/map.bin, then edit the navit configuration file with ```sudo nano /navit/navit.xml```
 
-To enable the custom map data you extracted, search for these lines, and replace the data tag with the directory to your map file.
+To enable the custom map data you extracted, search for this line ```<map type="binfile" enabled="yes" data="/home/pi/maps/map.bin"/>```, and replace the data tag with the directory to your map file.
 
-<!-- Mapset template for openstreetmaps -->
-<mapset enabled="yes">
-  
-<map type="binfile" enabled="yes" data="/home/pi/maps/map.bin"/>
-</mapset>
+![image](https://user-images.githubusercontent.com/90184008/140636395-27a03c14-00e3-464a-a913-2ae4c09864a5.png)
 
 Sweet. You've got a working map and GPS. Looks pretty ugly though. Let's fix that.
 
-To edit the layout and design of Navit, you can edit the XML design structure within Navit.xml. This can be a pretty tedious process if you're not experienced with XML, so I've saved you some time and provided you with my very own sexy custom Navit theme. Just replace the code in Navit.xml with my file, then select "Daniel's Sexy Theme" from the layout menu in Navit.
+To edit the layout and design of Navit, you can edit the XML design structure within Navit.xml. This can be a pretty tedious process if you're not experienced with XML, so I've saved you some time and provided you with my very own sexy custom Navit theme. Just replace the code in Navit.xml with my file, then select "Daniel's  A e s t h e t i c  Theme" from the layout menu in Navit.
 
+![image](https://user-images.githubusercontent.com/90184008/140636414-4b4171ed-ca71-4dc7-bdd6-b7604354c625.png)
 
+Navit can also read out the directions when navigating. You can enable voice output by installing ESpeak with ```sudo apt-get install espeak```, then searching for this line ```<speech type="cmdline" data="echo 'Fix the speech tag in navit.xml to let navit say:' '%s'" cps="15"/>``` and changing it to ```<speech type="cmdline" data="espeak '%s'" cps="15"/>```
 
 ### Dash Recording
 
