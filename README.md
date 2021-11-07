@@ -1,6 +1,4 @@
 # DashPi
-A Raspberry Pi Based GPS Dashcam Smart Car-Computer thing for your Car
-
-The DashPi at is a Raspberry Pi based GPS Dashcam which can be customised to perform a wide variety tasks such as Car Diagnostics, Media playing, or even object detection.
+The DashPi at is a Raspberry Pi based Car Computer which can be customised to perform a wide variety tasks such as car diagnostics, GPS navigation, dashcam recording, and object detection.
 
 Github Page:
