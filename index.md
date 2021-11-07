@@ -37,7 +37,7 @@ The physical aspect of this project can be as full fledged as you like. With a b
 ### Configuring the GPS
 The Hardware portion of this system is quite simple. Simply plug in your GPS into one of the blue USB 3.0 ports on the Pi. A red light should appear on the device and begin blinking.
 
-***TIP*** - GPS Modules can take anywhere from 30 seconds to 5 minutes to fully boot and obtain a signal. Please be patient, and make sure your GPS module is placed in a location that recieves optimal connection. You can use your phone's service bar as an indicator of a spot with a good signal. 
+***TIP*** - GPS Modules can take anywhere from 30 seconds to 5 minutes to fully boot and obtain a signal. Make sure your GPS module is placed in a location that recieves optimal connection. You can use your phone's service bar as an indicator of a spot with a good signal. 
 
 
 Once booted, you can check if the GPS signal is working by installing the GPSD client on your Pi. To do this, run ```sudo apt-get install gpsd```
@@ -49,6 +49,12 @@ OUTPUT
 Once you have a stable GPS connection, it's time to set up Navit.
 
 ### Setting up Navit
+
+To install the Navit client, run ```sudo apt-get install Navit```. You can now launch the software by exectuing the command ```navit```. Upon launching, you will probably be met with a blank screen. This is because Navit doesn't have any map data to display your GPS coordinates on. To create map data for your desired area, go to http://maps9.navit-project.org/. Using this tool, select your local area and download the bin file.
+
+![image](https://user-images.githubusercontent.com/90184008/140631810-9c191958-c2e0-4af0-909f-1cf844016374.png)
+
+Once you have the bin file downloaded, you can extract it to the 
 
 ### Dash Recording
 
