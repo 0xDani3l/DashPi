@@ -30,7 +30,6 @@ The physical aspect of this project can be as full fledged as you like. With a b
 **OBD2 Adapter**  
 <img src="https://m.media-amazon.com/images/I/61pNHKSSYTL.jpg" width="200" height="100">  
 [$20](https://www.remoteoz.com/product/usb-elm327-elm-obdii-obd2-diagnostic-scanner-for-pc-engine-scan-tool-code-reader/)  
-(I recommend getting the USB version, as I had multiple issues with the bluetooth version)
 
 **USB C Cigarette Port Charger**  
 <img src="https://www.jaycar.com.au/medias/sys_master/images/images/9524103020574/MP3684-usb-type-c-car-charger-5-4a-total-outputImageMain-515.jpg" width="200" height="100">  
@@ -101,13 +100,13 @@ This command will begin recording footage through the device linked @ /dev/video
 Example Output ^^
 
 ### OBD2 Diagnostics
-Since 2007, it has become a requirement that cars are fitted with a OBD2 port, which allows ___. You can also tap into this information with a cheap OBD2 adapter.
+Since 1996, it has become a requirement that cars are fitted with a OBD2 port, which allows ___. You can also tap into this information with a cheap OBD2 adapter.
 
 First of all, you will need to find out where the OBD2 port is located in your car. Using this website, you can find the location for pretty much any car compatible with OBD2. 
 
-After locating the port, simply plug the adapter in, making sure it is oriented the right way up. While some cars will 
+After locating the port, simply plug the adapter in, making sure it is oriented the right way up. While some cars will require the ignition to be turned to boot the device, some may boot automatically. It is recommended you use a USB adapter if it is powered while the car is off, as there are many bluetooth vulnerabilities which could be exploited by an attacker. (I also had a lot of problems getting bluetooth working on my Pi)
 
-Bluetooth vulnerabilities
+
 
 
 ### Object Detection
