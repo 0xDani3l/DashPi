@@ -13,7 +13,11 @@ The physical aspect of this project can be as full fledged as you like. With a b
 
 **Raspberry Pi 4**  
 <img src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Raspberry_Pi_4_Model_B_-_Side.jpg" width="200" height="100">  
-[Link](https://raspberry.piaustralia.com.au/products/raspberry-pi-4?src=raspberrypi)  
+[$100](https://raspberry.piaustralia.com.au/products/raspberry-pi-4?src=raspberrypi)  
+
+**Raspberry Pi Touchscreen**  
+<img src="https://core-electronics.com.au/media/catalog/product/cache/1/image/650x650/fe1bcd18654db18f328c2faaaf3c690a/5/i/5inch_hdmi_lcd_h_.jpg" width="200" height="100">  
+[$80](https://core-electronics.com.au/waveshare-5inch-lcd-800x480.html?utm_source=google_shopping)  
 
 **USB Webcam**  
 <img src="https://www.thetelecomshop.com/au/media/catalog/product/cache/9cd8ad701df57b45fe03cf4988b4e1eb/image/212069b75f/grandstream-full-hd-1080p-30fps-usb-webcam-guv3100-grndguv3100bn.jpg" width="200" height="100">  
@@ -28,11 +32,17 @@ The physical aspect of this project can be as full fledged as you like. With a b
 [Link](https://www.amazon.com.au/GlobalSat-BU-353-S4-USB-Receiver-Black/dp/B008200LHW/ref=asc_df_B008200LHW/?tag=googleshopdsk-22&linkCode=df0&hvadid=341792355995&hvpos=&hvnetw=g&hvrand=18146161714122481599&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1000142&hvtargid=pla-318320054786&psc=1)  
 (I recommend getting the USB version, as I had multiple issues with the bluetooth version)
 
-**USB C Cigarette Port Charger (optional)**  
+**USB C Cigarette Port Charger**  
 <img src="https://www.jaycar.com.au/medias/sys_master/images/images/9524103020574/MP3684-usb-type-c-car-charger-5-4a-total-outputImageMain-515.jpg" width="200" height="100">  
 [Link](https://www.jaycar.com.au/usb-type-c-car-charger-5-4a-total-output/p/MP3684) 
 
-Total Project Cost ≈ $200 
+**Battery Pack (optional)**  
+<img src="https://www.jaycar.com.au/medias/sys_master/images/images/9524103020574/MP3684-usb-type-c-car-charger-5-4a-total-outputImageMain-515.jpg" width="200" height="100">  
+[Link](https://www.jaycar.com.au/usb-type-c-car-charger-5-4a-total-output/p/MP3684) 
+
+**Make sure your power supply can provide a minimum of 3 amps to power the Pi and it's components.**
+
+Total Project Cost ≈ $250 
 <br>
 <br>
 ### Configuring the GPS
