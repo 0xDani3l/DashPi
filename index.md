@@ -42,7 +42,7 @@ The Hardware portion of this system is quite simple. Simply plug in your GPS int
 
 Once booted, you can check if the GPS signal is working by installing the GPSD client on your Pi. To do this, run ```sudo apt-get install gpsd```
 
-You can then run the test daemon by running ```sudo cgps -s```. This will display the GPS ouput from your GPS adapter. If you are not recieving a full GPS signal, try running the daemon with the flag ```-s```. This will prevent GPSD from interfering with the signal, which can break cheaper GPS modules such as the BUSAT-3335.
+You can then run the test daemon by running ```sudo cgps -s```. This will display the GPS ouput from your GPS adapter. If you are not recieving a full GPS signal, try running the daemon with the flag ```-s```. This will prevent GPSD from interfering with the signal, which can break cheaper GPS modules such as the GlobalSat BU-353-S4.
 
 ![image](https://user-images.githubusercontent.com/90184008/140636878-9e3dcde2-527e-4c3e-8167-1c0ebca9e7ff.png)
 
@@ -77,11 +77,17 @@ Once uninstalled, you will need to run an FFMPEG setup script specifically desig
 
 ***TIP*** - This installation can take HOURS, and your Pi will be at maximum CPU usage for nearly the entire time.
 
-After you've succesfully installed the latest version of FFPMEG, you can launch the help menu with ```ffmpeg -h```. Through here, you can find all of the options needed to record video from your USB Camera. To save you many hours of your life, I'll share the command I used during my testing -
+After you've succesfully installed the latest version of FFPMEG, you can launch the help menu with ```ffmpeg -h```. Through here, you can find all of the options needed to record video from your USB Camera. To save you many hours of your life, I'll share the command I came up with:
 
 ```ffmpeg -f alsa -ac 2 -i hw:2,0 -f video4linux2 -i /dev/video0 -acodec ac3 -ab 128k -f matroska -s 1280x720 -f avi -vcodec mpeg4 -qp 16 -f segment -segment_time 00:00:03 -strftime 1  /home/pi/Videos/%Y-%m-%d-%H-%M-%S.avi```
 
-This command will begin recording footage through the device linked @ /dev/video0, as well as recording the microphone audio from the Camera. It will save the video into the /home/pi/Videos/ directory every 3 seconds, with the date and time as the filename. 
+This command will begin recording footage through the device linked @ /dev/video0, as well as recording the microphone audio from the Camera. It will save the video into the /home/pi/Videos/ directory every 3 seconds, with the date and time as the filename. This should be enough to serve as a functional DashCam. Going further, you could implement a system that automatically deletes old videos once the Pi's storage fills up, but I was unable to do so myself.
+
+![image](https://user-images.githubusercontent.com/90184008/140637166-273d1074-bf9f-4f06-ad90-68b346608510.png)
+
+![image](https://user-images.githubusercontent.com/90184008/140637191-7cdb9ab4-d0ef-4b2e-ad15-46a0c0ed531f.png)
+
+Example Output ^^
 
 ### OBD2 Diagnostics
 
