@@ -54,7 +54,21 @@ To install the Navit client, run ```sudo apt-get install Navit```. You can now l
 
 ![image](https://user-images.githubusercontent.com/90184008/140631810-9c191958-c2e0-4af0-909f-1cf844016374.png)
 
-Once you have the bin file downloaded, you can extract it to the 
+Once you have the bin file downloaded, extract it to the /home/pi/maps/map.bin, then edit the navit configuration file with ```sudo nano /navit/navit.xml```
+
+To enable the custom map data you extracted, search for these lines, and replace the data tag with the directory to your map file.
+
+<!-- Mapset template for openstreetmaps -->
+<mapset enabled="yes">
+  
+<map type="binfile" enabled="yes" data="/home/pi/maps/map.bin"/>
+</mapset>
+
+Sweet. You've got a working map and GPS. Looks pretty ugly though. Let's fix that.
+
+To edit the layout and design of Navit, you can edit the XML design structure within Navit.xml. This can be a pretty tedious process if you're not experienced with XML, so I've saved you some time and provided you with my very own sexy custom Navit theme. Just replace the code in Navit.xml with my file, then select "Daniel's Sexy Theme" from the layout menu in Navit.
+
+
 
 ### Dash Recording
 
