@@ -12,7 +12,7 @@ Smart cars are cool, but I'm a college student that can barely cover the costs f
 
 ### Required Hardware  
 
-The physical aspect of this project can be as full fledged as you like. Personally, I was on a tight budget and time constraints, so I used cheaper modules and did not build a chassis for the components. With more money and resources, you could buy a better GPS module, mini computer, and webcam. The specific parts used should't matter, as they should all have a relatively similar process of setting up.  
+The physical aspect of this project can be as full fledged as you like. With a bigger budget, you could buy a GPS module with a higher baud rate, a higher definition webcam, or even a more powerful mini computer. This guide will only serve as a tutorial for these specific components, but other components will require a very similar setup procedure.  
 
 **Raspberry Pi 4**  
 <img src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Raspberry_Pi_4_Model_B_-_Side.jpg" width="200" height="100">  
@@ -27,7 +27,7 @@ The physical aspect of this project can be as full fledged as you like. Personal
 [Link](https://www.amazon.com.au/GlobalSat-BU-353-S4-USB-Receiver-Black/dp/B008200LHW/ref=asc_df_B008200LHW/?tag=googleshopdsk-22&linkCode=df0&hvadid=341792355995&hvpos=&hvnetw=g&hvrand=18146161714122481599&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1000142&hvtargid=pla-318320054786&psc=1)  
 
 **OBD2 Adapter**  
-<img src="https://www.shop.nctechimaging.com/wp-content/uploads/IMG_2426.jpg" width="200" height="100">  
+<img src="https://m.media-amazon.com/images/I/61pNHKSSYTL.jpg" width="200" height="100">  
 [Link](https://www.amazon.com.au/GlobalSat-BU-353-S4-USB-Receiver-Black/dp/B008200LHW/ref=asc_df_B008200LHW/?tag=googleshopdsk-22&linkCode=df0&hvadid=341792355995&hvpos=&hvnetw=g&hvrand=18146161714122481599&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1000142&hvtargid=pla-318320054786&psc=1)  
 
 **USB C Cigarette Port Charger (optional)**  
