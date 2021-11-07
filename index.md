@@ -4,6 +4,11 @@ The DashPi at is a Raspberry Pi based GPS Dashcam which can be customised to per
 
 This site aims to act as a guide for anyone who wishes to build their own version of this project. 
 
+###INSPIRATION  
+
+Smart cars are cool, but I'm a college student that can barely cover the costs for fuel. For the time being, I'm stuck with my dumb 2007 Subaru Impreza, but that doesn't mean I can't try and make it smarter myself!  
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/2007_Subaru_Impreza_%28GD9_MY07%29_Luxury_sedan_%282010-11-28%29.jpg" width="500" height="250">  
 
 ### Required Hardware  
 
