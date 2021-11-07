@@ -100,7 +100,7 @@ This command will begin recording footage through the device linked @ /dev/video
 Example Output ^^
 
 ### OBD2 Diagnostics
-Since 1996, it has become a requirement that cars are fitted with a OBD2 port, which allows ___. You can also tap into this information with a cheap OBD2 adapter.
+Since 2006, it has become a requirement that all Australian cars are fitted with a on board diagnostics port (OBD2), which allows mechanics to read car information such as internal errors, RPM, speed, temperature, etc. You can tap into this wealth of information with a cheap OBD2 adapter.
 
 First of all, you will need to find out where the OBD2 port is located in your car. Using this website, you can find the location for pretty much any car compatible with OBD2. 
 
