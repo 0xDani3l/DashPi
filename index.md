@@ -90,7 +90,9 @@ After you've succesfully installed the latest version of FFPMEG, you can launch 
 
 ```ffmpeg -f alsa -ac 2 -i hw:2,0 -f video4linux2 -i /dev/video0 -acodec ac3 -ab 128k -f matroska -s 1280x720 -f avi -vcodec mpeg4 -qp 16 -f segment -segment_time 00:00:03 -strftime 1  /home/pi/Videos/%Y-%m-%d-%H-%M-%S.avi```
 
-This command will begin recording footage through the device linked @ /dev/video0, as well as recording the microphone audio from the Camera. It will save the video into the /home/pi/Videos/ directory every 3 seconds, with the date and time as the filename. This should be enough to serve as a functional DashCam. Going further, you could implement a system that automatically deletes old videos once the Pi's storage fills up, but I was unable to do so myself.
+This command will begin recording footage through the device linked to /dev/video0, while also recording the microphone audio from this port. It will save the video into the /home/pi/Videos/ directory every 3 seconds, with the date and time as the filename. This should be enough to serve as a functional DashCam. 
+
+**TO DO:** Implement a system that automatically deletes old videos once the Pi's storage fills up. 
 
 ![image](https://user-images.githubusercontent.com/90184008/140637166-273d1074-bf9f-4f06-ad90-68b346608510.png)
 
@@ -110,6 +112,6 @@ After either connecting to your OBD device through bluetooth or USB, install the
 Using this, we can easily connect to and read the device data with a simple python script, which I have provided here.
 
 ### Object Detection
-While object detection wasn't in the original scope of my project, a similar project by TinkerNut has shown it to be entirely possible. 
+While object detection wasn't in the original scope of my project, a similar project by TinkerNut has shown it to be entirely possible, even with the Pi's limited resources.
 
-
+To do this, you'll need to install OpenCV
