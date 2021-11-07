@@ -33,6 +33,7 @@ The physical aspect of this project can be as full fledged as you like. With a b
 
 Project Cost ≈ $200 
 <br>
+<br>
 ### Configuring the GPS
 The Hardware portion of this system is quite simple. Simply plug in your GPS into one of the blue USB 3.0 ports on the Pi. A red light should appear on the device and begin blinking.
 
@@ -76,8 +77,14 @@ Once uninstalled, you will need to run an FFMPEG setup script specifically desig
 
 ***TIP*** - This installation can take HOURS, and your Pi will be at maximum CPU usage for nearly the entire time.
 
-After you've succesfully installed the latest version of FFPMEG, you can launch the help menu with ```ffmpeg -h```. Through here, you can find all of the options needed to record video from your USB Camera. 
+After you've succesfully installed the latest version of FFPMEG, you can launch the help menu with ```ffmpeg -h```. Through here, you can find all of the options needed to record video from your USB Camera. To save you many hours of your life, I'll share the command I used during my testing -
+
+```ffmpeg -f alsa -ac 2 -i hw:2,0 -f video4linux2 -i /dev/video0 -acodec ac3 -ab 128k -f matroska -s 1280x720 -f avi -vcodec mpeg4 -qp 16 -f segment -segment_time 00:00:03 -strftime 1  /home/pi/Videos/%Y-%m-%d-%H-%M-%S.avi```
+
+This command will begin recording footage through the device linked @ /dev/video0, as well as recording the microphone audio from the Camera. It will save the video into the /home/pi/Videos/ directory every 3 seconds, with the date and time as the filename. 
 
 ### OBD2 Diagnostics
+
+
 
 ### Object Detection
