@@ -26,6 +26,10 @@ The physical aspect of this project can be as full fledged as you like. Personal
 <img src="https://www.shop.nctechimaging.com/wp-content/uploads/IMG_2426.jpg" width="200" height="100">  
 [Link](https://www.amazon.com.au/GlobalSat-BU-353-S4-USB-Receiver-Black/dp/B008200LHW/ref=asc_df_B008200LHW/?tag=googleshopdsk-22&linkCode=df0&hvadid=341792355995&hvpos=&hvnetw=g&hvrand=18146161714122481599&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1000142&hvtargid=pla-318320054786&psc=1)  
 
+**OBD2 Adapter**  
+<img src="https://www.shop.nctechimaging.com/wp-content/uploads/IMG_2426.jpg" width="200" height="100">  
+[Link](https://www.amazon.com.au/GlobalSat-BU-353-S4-USB-Receiver-Black/dp/B008200LHW/ref=asc_df_B008200LHW/?tag=googleshopdsk-22&linkCode=df0&hvadid=341792355995&hvpos=&hvnetw=g&hvrand=18146161714122481599&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1000142&hvtargid=pla-318320054786&psc=1)  
+
 **USB C Cigarette Port Charger (optional)**  
 <img src="https://www.jaycar.com.au/medias/sys_master/images/images/9524103020574/MP3684-usb-type-c-car-charger-5-4a-total-outputImageMain-515.jpg" width="200" height="100">  
 [Link](https://www.jaycar.com.au/usb-type-c-car-charger-5-4a-total-output/p/MP3684)  
