@@ -34,7 +34,6 @@ The physical aspect of this project can be as full fledged as you like. Personal
 <img src="https://www.jaycar.com.au/medias/sys_master/images/images/9524103020574/MP3684-usb-type-c-car-charger-5-4a-total-outputImageMain-515.jpg" width="200" height="100">  
 [Link](https://www.jaycar.com.au/usb-type-c-car-charger-5-4a-total-output/p/MP3684)  
 <br>
-<br>
 ### Configuring Hardware
 The Hardware portion of this system is quite simple. Simply plug in your GPS into one of the blue USB 3.0 ports on the Pi. A red light should appear on the device and begin blinking.
 
