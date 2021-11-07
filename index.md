@@ -104,10 +104,11 @@ Since 2006, it has become a requirement that all Australian cars are fitted with
 
 First of all, you will need to find out where the OBD2 port is located in your car. Using this website, you can find the location for pretty much any car compatible with OBD2. 
 
-After locating the port, simply plug the adapter in, making sure it is oriented the right way up. While some cars will require the ignition to be turned to boot the device, some may boot automatically. It is recommended you use a USB adapter if it is powered while the car is off, as there are many bluetooth vulnerabilities which could be exploited by an attacker. (I also had a lot of problems getting bluetooth working on my Pi)
+After locating the port, simply plug the adapter in, making sure it is oriented the right way up. While some cars will require the ignition to be turned to boot the device, some may boot automatically. It is recommended you use a USB adapter if it is powered while the car is off, as there are many bluetooth vulnerabilities which could be exploited by an attacker.
 
+After either connecting to your OBD device through bluetooth or USB, install the python3 OBD module with ```python3 pip3 install OBD```
 
-
+Using this, we can easily connect to and read the device data with a simple python script, which I have provided here.
 
 ### Object Detection
 While object detection wasn't in the original scope of my project, a similar project by TinkerNut has shown it to be entirely possible. 
