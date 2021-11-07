@@ -29,16 +29,16 @@ The physical aspect of this project can be as full fledged as you like. With a b
 
 **OBD2 Adapter**  
 <img src="https://m.media-amazon.com/images/I/61pNHKSSYTL.jpg" width="200" height="100">  
-[Link](https://www.amazon.com.au/GlobalSat-BU-353-S4-USB-Receiver-Black/dp/B008200LHW/ref=asc_df_B008200LHW/?tag=googleshopdsk-22&linkCode=df0&hvadid=341792355995&hvpos=&hvnetw=g&hvrand=18146161714122481599&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1000142&hvtargid=pla-318320054786&psc=1)  
+[$20](https://www.remoteoz.com/product/usb-elm327-elm-obdii-obd2-diagnostic-scanner-for-pc-engine-scan-tool-code-reader/)  
 (I recommend getting the USB version, as I had multiple issues with the bluetooth version)
 
 **USB C Cigarette Port Charger**  
 <img src="https://www.jaycar.com.au/medias/sys_master/images/images/9524103020574/MP3684-usb-type-c-car-charger-5-4a-total-outputImageMain-515.jpg" width="200" height="100">  
-[Link](https://www.jaycar.com.au/usb-type-c-car-charger-5-4a-total-output/p/MP3684) 
+[$40](https://www.jaycar.com.au/usb-type-c-car-charger-5-4a-total-output/p/MP3684) 
 
 **Battery Pack (optional)**  
-<img src="https://www.jaycar.com.au/medias/sys_master/images/images/9524103020574/MP3684-usb-type-c-car-charger-5-4a-total-outputImageMain-515.jpg" width="200" height="100">  
-[Link](https://www.jaycar.com.au/usb-type-c-car-charger-5-4a-total-output/p/MP3684) 
+<img src="https://cdn.shopify.com/s/files/1/0735/0383/products/1566-11_800x.jpg?v=1632041088" width="200" height="100">  
+[$70](https://www.pakronics.com.au/products/usb-battery-pack-for-raspberry-pi-10000mah-2-x-5v-outputs-ada1566?currency=AUD&utm_medium=cpc&utm_source=google&utm_campaign=Google%20Shopping) 
 
 **Make sure your power supply can provide a minimum of 3 amps to power the Pi and it's components.**
 
