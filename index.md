@@ -43,7 +43,7 @@ Once booted, you can check if the GPS signal is working by installing the GPSD c
 
 You can then run the test daemon by running ```sudo cgps -s```. This will display the GPS ouput from your GPS adapter. If you are not recieving a full GPS signal, try running the daemon with the flag ```-s```. This will prevent GPSD from interfering with the signal, which can break cheaper GPS modules such as the BUSAT-3335.
 
-OUTPUT
+![image](https://user-images.githubusercontent.com/90184008/140636878-9e3dcde2-527e-4c3e-8167-1c0ebca9e7ff.png)
 
 Once you have a stable GPS connection, it's time to set up Navit.
 
