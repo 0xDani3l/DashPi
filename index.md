@@ -43,7 +43,6 @@ The physical aspect of this project can be as full fledged as you like. With a b
 
 Total Project Cost ≈ $250 
 <br>
-<br>
 ### Configuring the GPS
 The Hardware portion of this system is quite simple. Simply plug in your GPS into one of the blue USB 3.0 ports on the Pi. A red light should appear on the device and begin blinking.
 
