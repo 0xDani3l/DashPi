@@ -67,7 +67,16 @@ To edit the layout and design of Navit, you can edit the XML design structure wi
 
 Navit can also read out the directions when navigating. You can enable voice output by installing ESpeak with ```sudo apt-get install espeak```, then searching for this line ```<speech type="cmdline" data="echo 'Fix the speech tag in navit.xml to let navit say:' '%s'" cps="15"/>``` and changing it to ```<speech type="cmdline" data="espeak '%s'" cps="15"/>```
 
-### Dash Recording
+### Dash Recording  
+Having footage of your Dash can save you a lot of time and money if you ever get into an accident. Here's how you can implement DashCam functionality into the DashPi.
+
+To begin, you will need to uninstall the default version of FFMPEG that comes pre installed on the Raspberry Pi. This is because the default version is outdated, and can't perform the majority of functions we will need for our Dashcam. You can do this by running ```sudo apt-get purge FFMPEG```.
+
+Once uninstalled, you will need to run an FFMPEG setup script specifically designed for the Raspberry Pi. You can find this script here. Simply download it to your Pi, and execute it with ```sudo ./setup```.
+
+***TIP*** - This installation can take HOURS, and your Pi will be at maximum CPU usage for nearly the entire time.
+
+After you've succesfully installed the latest version of FFPMEG, you can launch the help menu with ```ffmpeg -h```. Through here, you can find all of the options needed to record video from your USB Camera. 
 
 ### OBD2 Diagnostics
 
