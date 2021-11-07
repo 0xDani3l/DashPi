@@ -26,12 +26,13 @@ The physical aspect of this project can be as full fledged as you like. With a b
 **OBD2 Adapter**  
 <img src="https://m.media-amazon.com/images/I/61pNHKSSYTL.jpg" width="200" height="100">  
 [Link](https://www.amazon.com.au/GlobalSat-BU-353-S4-USB-Receiver-Black/dp/B008200LHW/ref=asc_df_B008200LHW/?tag=googleshopdsk-22&linkCode=df0&hvadid=341792355995&hvpos=&hvnetw=g&hvrand=18146161714122481599&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1000142&hvtargid=pla-318320054786&psc=1)  
+(I recommend getting the USB version, as I had multiple issues with the bluetooth version)
 
 **USB C Cigarette Port Charger (optional)**  
 <img src="https://www.jaycar.com.au/medias/sys_master/images/images/9524103020574/MP3684-usb-type-c-car-charger-5-4a-total-outputImageMain-515.jpg" width="200" height="100">  
 [Link](https://www.jaycar.com.au/usb-type-c-car-charger-5-4a-total-output/p/MP3684) 
 
-Project Cost ≈ $200 
+Total Project Cost ≈ $200 
 <br>
 <br>
 ### Configuring the GPS
@@ -90,7 +91,16 @@ This command will begin recording footage through the device linked @ /dev/video
 Example Output ^^
 
 ### OBD2 Diagnostics
+Since 2007, it has become a requirement that cars are fitted with a OBD2 port, which allows ___. You can also tap into this information with a cheap OBD2 adapter.
 
+First of all, you will need to find out where the OBD2 port is located in your car. Using this website, you can find the location for pretty much any car compatible with OBD2. 
+
+After locating the port, simply plug the adapter in, making sure it is oriented the right way up. While some cars will 
+
+Bluetooth vulnerabilities
 
 
 ### Object Detection
+While object detection wasn't in the original scope of my project, a similar project by TinkerNut has shown it to be entirely possible. 
+
+
