@@ -108,11 +108,13 @@ First of all, you will need to find out where the OBD2 port is located in your c
 ![image](https://user-images.githubusercontent.com/90184008/140670249-4cfa23ac-9bd7-4629-9695-912e292a5fe3.png)
 
 
-After locating the port, simply plug the adapter in, making sure it is oriented the right way up. While some cars will require the ignition to be turned to boot the device, some may boot automatically. It is recommended you use a USB adapter if it is powered while the car is off, as there are many bluetooth vulnerabilities which could be exploited by an attacker.
+After locating the port, simply plug the adapter in, making sure it is oriented the right way up. While some cars will require the ignition to be turned to boot the device, some may boot automatically. 
 
-After either connecting to your OBD device through bluetooth or USB, install the python3 OBD module with ```python3 pip3 install OBD```
+**Tip -** It is recommended you use a USB adapter for the OBD module, as there are various vulnerabilities in a bluetooth connection that could allow a hacker to cause serious damage. See [OBD-II Dongle Attack: Stopping A Moving Car Via Bluetooth](https://hackaday.com/2017/04/14/obd-ii-dongle-attack-stopping-a-moving-car-via-bluetooth/) 
 
-Using this, we can easily connect to and read the device data with a simple python script, which I have provided here.
+After either connecting to your OBD2 device, install the python3 OBD module with ```python3 pip3 install OBD```
+
+Using this, we can easily connect to and read the device data with a simple python script which I have provided [here] .
 
 ### Going Further  
 While this stuff is pretty cool, there are so many other things you can do with the Raspberry Pi. Here are some ideas of how you can take this project further:
