@@ -39,7 +39,7 @@ The physical aspect of this project can be as full fledged as you like. With a b
 <img src="https://cdn.shopify.com/s/files/1/0735/0383/products/1566-11_800x.jpg?v=1632041088" width="200" height="100">  
 [$70](https://www.pakronics.com.au/products/usb-battery-pack-for-raspberry-pi-10000mah-2-x-5v-outputs-ada1566?currency=AUD&utm_medium=cpc&utm_source=google&utm_campaign=Google%20Shopping) 
 
-***TIP*** **Make sure your power supply can provide a minimum of 3 amps to power the Pi and it's components.**
+***TIP*** - **Make sure your power supply can provide a minimum of 3 amps to power the Pi and it's components.**
 <br>
 ### Configuring the GPS
 The GPS module is very easy to setup. Simply plug in your GPS into one of the blue USB 3.0 ports on the Pi. A red light should appear on the device and begin blinking.
