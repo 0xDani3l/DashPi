@@ -5,6 +5,8 @@ The DashPi at is a Raspberry Pi based Car Computer which can be customised to pe
 
 Smart cars are cool, but I'm a college student that can barely afford fuel. For the time being, I'm stuck with my dumb '07 Subaru Impreza, but that doesn't mean I can't try and make it smarter myself!  
 
+![image](https://user-images.githubusercontent.com/90184008/140691433-8f20ec4d-fed9-4f4b-9e64-91cfbf4958cb.png)
+
 <img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/2007_Subaru_Impreza_%28GD9_MY07%29_Luxury_sedan_%282010-11-28%29.jpg" width="500" height="250">  
 
 ### Required Hardware  
