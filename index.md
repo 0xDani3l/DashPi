@@ -112,7 +112,28 @@ After locating the port, simply plug the adapter in, making sure it is oriented 
 
 After either connecting to your OBD2 device, install the python3 OBD module with ```python3 pip3 install OBD```
 
-Using this, we can easily connect to and read the device data with a simple python script which I have provided [here](https://raw.githubusercontent.com/0xDani3l/DashPi/main/OBD2.py) .
+Using this, we can easily connect to and read the device data with a simple python script.
+
+```
+#import required libraries
+import obd
+
+#establish a connection with the OBD device
+connection = obd.OBD()
+
+#create a command varialbe
+c = obd.commands.RPM
+
+#query the command and store the response
+response = connection.query(c)
+
+#print the response value
+print(response.value)
+
+#close the connection
+connection.close()
+
+```
 
 ### Going Further  
 While this stuff is pretty cool, there are so many other things you can do with the Raspberry Pi. Here are some ideas of how you can take this project further:
