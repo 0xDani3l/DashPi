@@ -44,7 +44,7 @@ The physical aspect of this project can be as full fledged as you like. With a b
 Total Project Cost ≈ $250 
 <br>
 ### Configuring the GPS
-The Hardware portion of this system is quite simple. Simply plug in your GPS into one of the blue USB 3.0 ports on the Pi. A red light should appear on the device and begin blinking.
+The GPS module is very easy to setup. Simply plug in your GPS into one of the blue USB 3.0 ports on the Pi. A red light should appear on the device and begin blinking.
 
 ***TIP*** - GPS Modules can take anywhere from 30 seconds to 5 minutes to fully boot and obtain a signal. Make sure your GPS module is placed in a location that recieves optimal connection. You can use your phone's service bar as an indicator of a spot with a good signal. 
 
