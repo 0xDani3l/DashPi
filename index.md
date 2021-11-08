@@ -13,15 +13,15 @@ The physical aspect of this project can be as full fledged as you like. With a b
 
 **Raspberry Pi 4**  
 <img src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Raspberry_Pi_4_Model_B_-_Side.jpg" width="200" height="100">  
-[$100](https://raspberry.piaustralia.com.au/products/raspberry-pi-4?src=raspberrypi)  
+[$110](https://raspberry.piaustralia.com.au/products/raspberry-pi-4?src=raspberrypi)  
 
 **Raspberry Pi Touchscreen**  
 <img src="https://core-electronics.com.au/media/catalog/product/cache/1/image/650x650/fe1bcd18654db18f328c2faaaf3c690a/5/i/5inch_hdmi_lcd_h_.jpg" width="200" height="100">  
-[$80](https://core-electronics.com.au/waveshare-5inch-lcd-800x480.html?utm_source=google_shopping)  
+[$75](https://core-electronics.com.au/waveshare-5inch-lcd-800x480.html?utm_source=google_shopping)  
 
 **USB Webcam**  
 <img src="https://www.thetelecomshop.com/au/media/catalog/product/cache/9cd8ad701df57b45fe03cf4988b4e1eb/image/212069b75f/grandstream-full-hd-1080p-30fps-usb-webcam-guv3100-grndguv3100bn.jpg" width="200" height="100">  
-[$30](https://www.amazon.com/Microphone-NexiGo-Computer-110-degree-Conferencing/dp/B088TSR6YJ/ref=sr_1_3?_encoding=UTF8&c=ts&keywords=Webcams&qid=1636068048&qsid=141-1752746-3911824&s=pc&sr=1-3&sres=B088TSR6YJ%2CB084ZJFNKN%2CB01LXCDPPK%2CB08BHX7GYY%2CB01N5UOYC4%2CB07M6Y7355%2CB004FHO5Y6%2CB08931JJLV%2CB01BGBJ8Y0%2CB08LKZ27C9%2CB01DPNPJ72%2CB088D3VXC6%2CB006JH8T3S%2CB09B9MXT35%2CB09B9RWZMN%2CB004YW7WCY%2CB08T1MWX6J%2CB08FDM4DHF%2CB08BNJPVXG%2CB08VJ25PL1&srpt=CAMCORDER&ts_id=172511)  
+[$40](https://www.amazon.com/Microphone-NexiGo-Computer-110-degree-Conferencing/dp/B088TSR6YJ/ref=sr_1_3?_encoding=UTF8&c=ts&keywords=Webcams&qid=1636068048&qsid=141-1752746-3911824&s=pc&sr=1-3&sres=B088TSR6YJ%2CB084ZJFNKN%2CB01LXCDPPK%2CB08BHX7GYY%2CB01N5UOYC4%2CB07M6Y7355%2CB004FHO5Y6%2CB08931JJLV%2CB01BGBJ8Y0%2CB08LKZ27C9%2CB01DPNPJ72%2CB088D3VXC6%2CB006JH8T3S%2CB09B9MXT35%2CB09B9RWZMN%2CB004YW7WCY%2CB08T1MWX6J%2CB08FDM4DHF%2CB08BNJPVXG%2CB08VJ25PL1&srpt=CAMCORDER&ts_id=172511)  
 
 **USB GPS Reciever**  
 <img src="https://www.shop.nctechimaging.com/wp-content/uploads/IMG_2426.jpg" width="200" height="100">  
@@ -40,8 +40,6 @@ The physical aspect of this project can be as full fledged as you like. With a b
 [$70](https://www.pakronics.com.au/products/usb-battery-pack-for-raspberry-pi-10000mah-2-x-5v-outputs-ada1566?currency=AUD&utm_medium=cpc&utm_source=google&utm_campaign=Google%20Shopping) 
 
 **Make sure your power supply can provide a minimum of 3 amps to power the Pi and it's components.**
-
-Total Project Cost ≈ $250 
 <br>
 ### Configuring the GPS
 The GPS module is very easy to setup. Simply plug in your GPS into one of the blue USB 3.0 ports on the Pi. A red light should appear on the device and begin blinking.
