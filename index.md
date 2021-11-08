@@ -115,7 +115,7 @@ After either connecting to your OBD device through bluetooth or USB, install the
 Using this, we can easily connect to and read the device data with a simple python script, which I have provided here.
 
 ### Going Further  
-While this stuff is pretty cool, there are so many other things you can do with the Raspberry Pi. Here are some ideas of how you can take this project further -
+While this stuff is pretty cool, there are so many other things you can do with the Raspberry Pi. Here are some ideas of how you can take this project further:
 
 - Automated Video Recycling System
 - GPS Mount / Chassis
