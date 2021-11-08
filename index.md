@@ -132,7 +132,6 @@ print(response.value)
 
 #close the connection
 connection.close()
-
 ```
 
 ### Going Further  
