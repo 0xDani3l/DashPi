@@ -103,15 +103,13 @@ Example Output ^^
 ### OBD2 Diagnostics
 Since 2006, it has become a requirement that all Australian cars are fitted with a on board diagnostics port (OBD2), which allows mechanics to read car information such as internal errors, RPM, speed, temperature, etc. You can tap into this wealth of information with a cheap OBD2 adapter.
 
-First of all, you will need to find out where the OBD2 port is located in your car. Using this website, you can find the location for pretty much any car compatible with OBD2. 
+First of all, you will need to find out where the OBD2 port is located in your car. Using this website: https://www.outilsobdfacile.com/location-plug-connector-obd.php, you can find the location for pretty much any car compatible with OBD2.
+
+![image](https://user-images.githubusercontent.com/90184008/140670249-4cfa23ac-9bd7-4629-9695-912e292a5fe3.png)
+
 
 After locating the port, simply plug the adapter in, making sure it is oriented the right way up. While some cars will require the ignition to be turned to boot the device, some may boot automatically. It is recommended you use a USB adapter if it is powered while the car is off, as there are many bluetooth vulnerabilities which could be exploited by an attacker.
 
 After either connecting to your OBD device through bluetooth or USB, install the python3 OBD module with ```python3 pip3 install OBD```
 
 Using this, we can easily connect to and read the device data with a simple python script, which I have provided here.
-
-### Object Detection
-While object detection wasn't in the original scope of my project, a similar project by TinkerNut has shown it to be entirely possible, even with the Pi's limited resources.
-
-To do this, you'll need to install OpenCV
