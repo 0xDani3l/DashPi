@@ -108,7 +108,7 @@ First of all, you will need to find out where the OBD2 port is located in your c
 
 After locating the port, simply plug the adapter in, making sure it is oriented the right way up. While some cars will require the ignition to be turned to boot the device, some may boot automatically. 
 
-***Tip -*** **It is recommended you use a USB adapter for the OBD module, as there are various vulnerabilities in a bluetooth connection that could allow a hacker to cause serious damage. See [OBD-II Dongle Attack: Stopping A Moving Car Via Bluetooth](https://hackaday.com/2017/04/14/obd-ii-dongle-attack-stopping-a-moving-car-via-bluetooth/) **
+***Tip -*** **It is recommended you use a USB adapter for the OBD module, as there are various vulnerabilities in a bluetooth connection that could allow a hacker to cause serious damage. See ** [OBD-II Dongle Attack: Stopping A Moving Car Via Bluetooth](https://hackaday.com/2017/04/14/obd-ii-dongle-attack-stopping-a-moving-car-via-bluetooth/) 
 
 After either connecting to your OBD2 device, install the python3 OBD module with ```python3 pip3 install OBD```
 
