@@ -39,12 +39,12 @@ The physical aspect of this project can be as full fledged as you like. With a b
 <img src="https://cdn.shopify.com/s/files/1/0735/0383/products/1566-11_800x.jpg?v=1632041088" width="200" height="100">  
 [$70](https://www.pakronics.com.au/products/usb-battery-pack-for-raspberry-pi-10000mah-2-x-5v-outputs-ada1566?currency=AUD&utm_medium=cpc&utm_source=google&utm_campaign=Google%20Shopping) 
 
-**Make sure your power supply can provide a minimum of 3 amps to power the Pi and it's components.**
+***TIP*** **Make sure your power supply can provide a minimum of 3 amps to power the Pi and it's components.**
 <br>
 ### Configuring the GPS
 The GPS module is very easy to setup. Simply plug in your GPS into one of the blue USB 3.0 ports on the Pi. A red light should appear on the device and begin blinking.
 
-***TIP*** - GPS Modules can take anywhere from 30 seconds to 5 minutes to fully boot and obtain a signal. Make sure your GPS module is placed in a location that recieves optimal connection. You can use your phone's service bar as an indicator of a spot with a good signal. 
+***TIP*** - **GPS Modules can take anywhere from 30 seconds to 5 minutes to fully boot and obtain a signal. Make sure your GPS module is placed in a location that recieves optimal connection. You can use your phone's service bar as an indicator of a spot with a good signal.** 
 
 
 Once booted, you can check if the GPS signal is working by installing the GPSD client on your Pi. To do this, run ```sudo apt-get install gpsd```
@@ -82,7 +82,7 @@ To begin, you will need to uninstall the default version of FFMPEG that comes pr
 
 Once uninstalled, you will need to run an FFMPEG setup script specifically designed for the Raspberry Pi. You can find this script here. Simply download it to your Pi, and execute it with ```sudo ./setup```.
 
-***TIP*** - This installation can take HOURS, and your Pi will be at maximum CPU usage for nearly the entire time.
+***TIP*** - **This installation can take HOURS, and your Pi will be at maximum CPU usage for nearly the entire time.**
 
 After you've succesfully installed the latest version of FFPMEG, you can launch the help menu with ```ffmpeg -h```. Through here, you can find all of the options needed to record video from your USB Camera. To save you many hours of your life, I'll share the command I came up with:
 
@@ -108,7 +108,7 @@ First of all, you will need to find out where the OBD2 port is located in your c
 
 After locating the port, simply plug the adapter in, making sure it is oriented the right way up. While some cars will require the ignition to be turned to boot the device, some may boot automatically. 
 
-**Tip -** It is recommended you use a USB adapter for the OBD module, as there are various vulnerabilities in a bluetooth connection that could allow a hacker to cause serious damage. See [OBD-II Dongle Attack: Stopping A Moving Car Via Bluetooth](https://hackaday.com/2017/04/14/obd-ii-dongle-attack-stopping-a-moving-car-via-bluetooth/) 
+***Tip -*** **It is recommended you use a USB adapter for the OBD module, as there are various vulnerabilities in a bluetooth connection that could allow a hacker to cause serious damage. See [OBD-II Dongle Attack: Stopping A Moving Car Via Bluetooth](https://hackaday.com/2017/04/14/obd-ii-dongle-attack-stopping-a-moving-car-via-bluetooth/) **
 
 After either connecting to your OBD2 device, install the python3 OBD module with ```python3 pip3 install OBD```
 
