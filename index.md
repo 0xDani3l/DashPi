@@ -80,7 +80,7 @@ Having footage of your Dash can save you a lot of time and money if you ever get
 
 To begin, you will need to uninstall the default version of FFMPEG that comes pre installed on the Raspberry Pi. This is because the default version is outdated, and can't perform the majority of functions we will need for our Dashcam. You can do this by running ```sudo apt-get purge FFMPEG```.
 
-Once uninstalled, you will need to run an FFMPEG setup script specifically designed for the Raspberry Pi. You can find this script here. Simply download it to your Pi, and execute it with ```sudo ./setup```.
+Once uninstalled, you will need to run an FFMPEG setup script specifically designed for the Raspberry Pi. You can find this script [here](https://raw.githubusercontent.com/0xDani3l/DashPi/main/compile-ffmpeg.sh). Simply download it to your Pi, and execute it with ```./compile-ffmpeg.sh```.
 
 **This installation can take HOURS, and your Pi will be at maximum CPU usage for nearly the entire time.**
 
