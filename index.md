@@ -69,7 +69,7 @@ To enable the custom map data you extracted, search for this line ```<map type="
 
 Sweet. You've got a working map and GPS. Looks pretty ugly though. Let's fix that.
 
-To edit the layout and design of Navit, you can edit the XML design structure within Navit.xml. This can be a pretty tedious process if you're not experienced with XML, so I've saved you some time and provided you with my very own sexy custom Navit theme. Just replace the code in Navit.xml with my file, then select "Daniel's  A e s t h e t i c  Theme" from the layout menu in Navit.
+To edit the layout and design of Navit, you can edit the XML design structure within Navit.xml. This can be a pretty tedious process if you're not experienced with XML, so I've saved you some time and provided you with my very own sexy custom Navit theme. Just replace the code in Navit.xml with [my file](https://raw.githubusercontent.com/0xDani3l/DashPi/main/navit.xml), then select "Daniel's  A e s t h e t i c  Theme" from the layout menu in Navit.
 
 ![image](https://user-images.githubusercontent.com/90184008/140636414-4b4171ed-ca71-4dc7-bdd6-b7604354c625.png)
 
